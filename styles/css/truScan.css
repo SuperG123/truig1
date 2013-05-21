@@ -1,0 +1,91 @@
+/* truScan CSS */
+body {
+    padding:0 10%;}
+header {background-color:#000;}
+	#imgHolder{width:100%;}
+	#imgHolder img{background-color:#fff; border-radius:20px;margin:auto;margin-top:-20px;display:block;padding:10px;}
+	header h1, header h2{color:#fff;text-align:center;margin-top:0;}
+footer {
+    background-color:#000;
+    text-align:center;
+	/*float:left;*/}
+#mainBody{
+width:100%;
+height:320px;
+margin-top:0px;
+display:block;
+backgound-color:#0066FF;
+}
+article {
+    background-color:#0066FF;
+    float:left;
+    width:80%;
+    height:500px;
+	margin-top:-20px;
+	display:block;}
+	/*div#mainCont{margin:10px 20px;}*/
+	div#prodInfo{clear:both;display:block;float:left;}
+
+nav {
+    background-color:#333366;
+    float:left;
+    width:20%;
+    height:500px;
+	margin-top:-20px;}
+	
+#tblComp{
+	width:98%;
+	margin:0 10px;
+	background-color:#FFF;
+	}
+#tblComp td{
+	border-right:1px solid #000;
+	}
+
+#mainForm{width:600px;}
+
+#helpUserDialog{width:598px;color:black;}
+#helpUserDialog h1{font-size:14px;color:black;}
+#helpUserDialog p{font-size:12px;color:black;}
+#helpUserDialog small{font-size:10px;color:red;}
+
+li {color:#fff;text-decoration:none;}
+li>a:link {color:#fff;text-decoration:none;}
+li>a:visited {color:#fff;text-decoration:none;}
+li>a:active {color:#fff;text-decoration:none;}
+
+#frmMsgTo{width:98%;}
+#msgReadTo{width:98%;}
+#msgReadFrom{width:98%;}
+#msgReadSub{width:98%;}
+#msgReadMsg{width:98%;}
+#msgReadDate{width:98%;}
+#ne1{width:150px;float:left;margin-top:10px;margin-left:10px;}
+#ne1 input{width:148px;}
+#iTo4{width:24%;float:left; margin-top:10px;}
+#iTo2{width:96%;float:left; margin-top:10px;}
+#uid{display:block;float:left;}
+#upa{display:block;float:left;}
+#fUpc{display:block;float:left;margin:5px;}
+#fSku{display:block;float:left;margin:5px;}
+#fQty{display:block;float:left;margin:5px;}
+#fLoc{display:block;float:left;margin:5px;}
+#fPr{display:block;float:left;margin:5px;}
+#fDe{display:block;float:left;margin:5px;}
+#fCa{display:block;float:left;margin:5px;}
+#fCo{display:block;float:left;margin:5px;}
+#fWe{display:block;float:left;margin:5px;}
+#fDi{display:block;float:left;margin:5px;}
+#fVe{display:block;float:left;margin:5px;}
+#fTtp{display:block;float:left;margin:5px;}
+#clicker{display:block;float:left;margin:5px;}
+#saver{display:block;float:left;margin:5px;}
+#saver1{display:block;float:right;margin:5px;}
+#cancel1{display:block;float:right;margin:5px;}
+#prodInfoLabel{width:600px;}
+
+input:required{border:2px solid red;background-color:#e2e2e2;}
+input:valid{border:2px solid #e2e2e2;background-color:#adff2f;}
+
+/* hide the close button in jQuery dialog */
+.no-close .ui-dialog-titlebar-close{display:none;}
